@@ -1,8 +1,8 @@
 # Überschrift der Seite 2
 ## Seite 2
 
-* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-* At vero eos et accusam et justo duo dolores et ea rebum.
-* Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+* Achtung! Dieser Blindtext wird gerade durch 130 Millionen Rezeptoren Ihrer Netzhaut erfasst.
+* Die Zellen werden dadurch in einen Erregungszustand versetzt, der sich über den Sehnerv in dem hinteren Teil Ihres Gehirns ausbreitet.
+* Von dort aus überträgt sich die Erregung in Sekundenbruchteilen auch in andere Bereiche Ihres Grosshirns.
 
 [pbrepo/README.md](https://github.com/peterbrain/pbrepo/README.md)
