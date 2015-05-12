@@ -5,4 +5,4 @@
 * At vero eos et accusam et justo duo dolores et ea rebum.
 * Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-[zur Seite 2](https://github.com/PeterBrain/pb.repo/blob/master/site_2.md)
+[zur Seite 2](https://github.com/PeterBrain/peterbrain.github.io/blob/master/site_2.md)
