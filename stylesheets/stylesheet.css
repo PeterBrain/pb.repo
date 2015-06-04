@@ -139,7 +139,7 @@ a {
     color: #567482;
     word-break: normal;
     white-space: pre;
-    background: transparent;
+    background: #555;
     border: 0; }
 .main-content .highlight {
   margin-bottom: 1rem; }
