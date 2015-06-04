@@ -129,7 +129,7 @@ a {
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #567482;
   word-wrap: normal;
-  background-color: #f3f6fa;
+  background-color: #555;
   border: solid 1px #dce6f0;
   border-radius: 0.3rem; }
   .main-content pre > code {
@@ -139,7 +139,7 @@ a {
     color: #567482;
     word-break: normal;
     white-space: pre;
-    background: #555;
+    background: transparent;
     border: 0; }
 .main-content .highlight {
   margin-bottom: 1rem; }
