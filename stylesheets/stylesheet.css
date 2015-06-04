@@ -1,7 +1,7 @@
 @font-face{
     font-family: "BLOKK_NEW";
-    src: url('BLOKK_NEW.ttf'),
-    url('BLOKK_NEW.eot');
+    src: url('../BLOKK_NEW.ttf'),
+    url('../BLOKK_NEW.eot');
 }
 
 * {
