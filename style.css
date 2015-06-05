@@ -4,8 +4,8 @@
 
 @font-face{
 	font-family: "BLOKK_NEW";
-	src: url('../BLOKK_NEW.ttf'),
-	url('../BLOKK_NEW.eot');
+	src: url('../font/BLOKK_NEW.ttf'),
+	url('../font/BLOKK_NEW.eot');
 }
 
 /* MAIN */
@@ -17,7 +17,7 @@
 	border: none;
 }
 
-html, body {height: 100%; font-family: "BLOKK_NEW";}
+html, body {height: 100%;}
 
 #wrapper {
 	min-height: 100%;
