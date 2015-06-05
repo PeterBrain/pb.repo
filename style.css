@@ -48,6 +48,10 @@ body {
 	color: #606c71;
 }*/
 
+xmp {
+	font-family: Roboto;
+}
+
 a {
 	color: #1e6bb8;
 	text-decoration: none;
