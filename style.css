@@ -33,13 +33,47 @@ html, body {height: 100%;}
 	position: absolute;
 	bottom: 0px;
 	width: auto;
-	height: 100px;
+	height: 50px;
 }
 
 section {
 	position: relative;
 	width: auto;
 	margin: 0 14%;
+}
+
+xmp {font-family: Roboto;}
+
+.profile {
+	height: auto;
+	display: table;
+	padding: 100px 0;
+	margin: auto;
+}
+
+.profile > .pic {
+	float: left;
+	display: inline-block;
+	border: 3px solid rgba(40,40,40,0.95);
+	border-radius: 131px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	vertical-align: central;
+	line-height: 250px;
+	font-size: 150px;
+	background-color: rgba(50,50,50,0.5);
+	font-family: Verdana;
+}
+
+.profile > .name {
+	text-align: right;
+	display: inline-block;
+	height: 256px;
+	width: 500px;
+	line-height: 256px;
+	font-family: 'Roboto';
+	font-size: 100px;
 }
 
 /* MAIN END */
@@ -55,9 +89,7 @@ body {
 	color: #606c71;
 }*/
 
-xmp {font-family: Roboto;}
-
-a {
+/*a {
 	color: #1e6bb8;
 	text-decoration: none;
 }
@@ -108,15 +140,13 @@ a:hover {text-decoration: underline;}
 		margin-top: 1rem;
 		margin-left: 0;
 	}
-}
+}*/
 
-.page-header {
+/*.page-header {
 	color: #fff;
 	text-align: center;
-	background-color: #FF1010;/*159957*/
-	background-image: url(png/pattern.png), linear-gradient(75deg, #FF9900, #FF1010);/*#155799, #159957*//*#FF8800*/
-	/*transform: rotate(360deg);
-	transition: all 1s linear;*/
+	background-color: #FF1010;/*159957*//*
+	background-image: url(png/pattern.png), linear-gradient(75deg, #FF9900, #FF1010);/*#155799, #159957*//*#FF8800*//*
 }
 
 @media screen and (min-width: 64em) {
@@ -174,8 +204,8 @@ a:hover {text-decoration: underline;}
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	font-weight: normal;
-	color: #FF8800;/*159957*/
-}
+	color: #FF8800;/*159957*//*
+}*/
 
 .main-content p {margin-bottom: 1em;}
 
@@ -212,7 +242,7 @@ a:hover {text-decoration: underline;}
 	letter-spacing: 1px;
 }
 
-.main-content .highlight {margin-bottom: 1rem;}
+/*.main-content .highlight {margin-bottom: 1rem;}
 
 .main-content .highlight pre {
 	margin-bottom: 0;
@@ -337,4 +367,4 @@ a:hover {text-decoration: underline;}
 
 @media screen and (max-width: 42em) {
 	.site-footer {font-size: 0.9rem;}
-}
+}*/
