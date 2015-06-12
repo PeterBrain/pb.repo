@@ -15,6 +15,7 @@
 	margin: 0;
 	padding: 0;
 	border: none;
+	vertical-align: auto;
 }
 
 html, body {height: 100%;}
@@ -33,6 +34,12 @@ html, body {height: 100%;}
 	bottom: 0px;
 	width: auto;
 	height: 100px;
+}
+
+section {
+	position: relative;
+	width: auto;
+	margin: 0 14%;
 }
 
 /* MAIN END */
@@ -107,7 +114,9 @@ a:hover {text-decoration: underline;}
 	color: #fff;
 	text-align: center;
 	background-color: #FF1010;/*159957*/
-	background-image: linear-gradient(120deg, #FF9900, #FF1010);/*#155799, #159957*//*#FF8800*/
+	background-image: url(png/pattern.png), linear-gradient(75deg, #FF9900, #FF1010);/*#155799, #159957*//*#FF8800*/
+	/*transform: rotate(360deg);
+	transition: all 1s linear;*/
 }
 
 @media screen and (min-width: 64em) {
@@ -200,6 +209,7 @@ a:hover {text-decoration: underline;}
 	white-space: pre;
 	background: transparent;
 	border: 0;
+	letter-spacing: 1px;
 }
 
 .main-content .highlight {margin-bottom: 1rem;}
