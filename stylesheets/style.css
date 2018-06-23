@@ -1,0 +1,95 @@
+*,
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 1em;
+	vertical-align: auto;
+}
+
+html, body {height: 100%;}
+body {background: #F3F3F3;}
+
+/*.line {
+	height: 1px;
+	background: transparent linear-gradient(
+		to right,
+		rgba(255,255,255,0),
+		#CCC,
+		rgba(255,255,255,0)
+	) repeat scroll 0% 0%;
+	margin-bottom: 1em;
+}*/
+
+.gh {
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.125vw;
+}
+
+.gh_plus {font-size: 10em;}
+
+.gh_box {
+	width: 25%;
+	margin: auto;
+	box-shadow: 10px 20px 50px #CCC;
+}
+
+.gh_box_1 {
+	position: relative;
+	background: rgb(166,217,217);
+}
+
+.gh_box_2 {
+	position: relative;
+	background: rgb(201,224,133);
+}
+
+.gh_box_text {
+	display: flex;
+	background: #FFF;
+}
+
+.gh_box_text_elem {
+	width: 100%;
+	padding: 2.5%;
+	line-height: 3em;
+}
+
+.gh_box_text_elem_1,
+.gh_box_text_elem_2 {
+	width: 7vw;
+	padding: 2.5%;
+	border-left: 0.2vw solid rgb(166,217,217);/*hsl(180, 40%, 75%, 1)*/
+	line-height: 3em;
+	text-align: center;
+}
+
+.gh_box_text_elem_2 {border-left: 0.2vw solid rgb(201,224,133);/*hsl(75, 60%, 70%, 1)*/}
+
+.gh_box_pb {
+	display: inline-block;
+	position: absolute;
+	margin: 2%;
+	padding: 0.25em 0.5em;
+	border: 0.2vw solid #FFF;
+	color: #FFF;
+	writing-mode: vertical-lr;
+	text-align: center;
+}
+
+.gh_box_letter {
+	font-size: 20em;
+	text-align: center;
+	padding: 10% 0;
+}
+
+/*@media (min-width: 1024px) {}
+@media (min-width: 767px) and (max-width: 1024px) {}
+@media (max-width: 767px) {}*/
